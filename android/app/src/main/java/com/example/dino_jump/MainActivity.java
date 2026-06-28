@@ -1,1 +1,6 @@
-src/main/java/com/example/dino_jump/MainActivity.java
+package com.example.dino_jump;
+
+import io.flutter.embedding.android.FlutterActivity;
+
+public class MainActivity extends FlutterActivity {
+}
