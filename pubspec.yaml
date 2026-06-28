@@ -1,0 +1,29 @@
+name: dino_jump
+description: "Game nhay chuong ngai vat 2D, phong cach Material 3 Expressive, xay dung bang Flutter va Flame Engine."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Engine làm game 2D - vẽ trực tiếp lên canvas bằng Flutter, native 100%,
+  # không dùng WebView hay trình duyệt ẩn.
+  flame: ^1.37.0
+
+  # Lưu trữ cục bộ trên máy: dùng để lưu lại Điểm Cao Nhất (High Score) và
+  # lịch sử 3 trận chơi gần nhất, dữ liệu vẫn còn sau khi tắt mở lại app.
+  shared_preferences: ^2.5.5
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
